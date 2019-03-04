@@ -1,0 +1,156 @@
+/*GALLERY*/
+#galeria {
+    height: auto;
+    color: black;
+    padding: 50px 0 20px 0;
+  }
+
+#galeria-intro li:first-of-type{
+  text-transform: uppercase;
+}
+
+.three-lg-imgs{
+  display: flex;
+}
+.three-lg-imgs .box-12,
+.three-lg-imgs .box-13,
+.three-lg-imgs .box-14{
+  height: 700px;
+  flex:1
+}
+
+/* .three-lg-imgs .box-12 .flip,
+.three-lg-imgs .box-13 .flip,
+.three-lg-imgs .box-14 .flip{
+  display: none;
+  height: 700px;
+  width: 100%;
+}
+
+.three-lg-imgs .box-12:hover .flip,
+.three-lg-imgs .box-13:hover .flip,
+.three-lg-imgs .box-14:hover .flip{
+  display:flex;
+  overflow: hidden;
+} */
+
+#gallery-sendus{
+  color: lightgrey;
+  background-color: #405e32e9;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#gallery-sendus h2{
+  font-weight: 300;
+  padding: 2%;
+  color: white;
+}
+
+#gallery-sendus h4{
+  padding: 2%;
+  font-weight: 300;
+}
+
+#gallery-sendus li{
+  list-style: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: black;
+  width: 25%;
+  margin:auto;
+}
+
+#gallery-sendus li a{
+  color: black;
+}
+
+#gallery-sendus li i{
+  padding: 3%;
+}
+
+#gallery-sendus li:hover{
+  background-color: #b1d555;
+  color: white;
+}
+
+#gallery-sendus li:hover a{
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 869px){
+  #segment-three .three-lg-imgs{
+      display: flex;
+      flex-direction: column;
+  }
+
+  #segment-three .three-lg-imgs .box-12,
+  #segment-three .three-lg-imgs .box-13,
+  #segment-three .three-lg-imgs .box-14{
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 624px){
+  #gallery-sendus{
+    padding: 8%;
+  }
+  #gallery-sendus li{
+    width: 40%;
+    padding: 1%;
+  } 
+}
+
+@media only screen and (max-width: 414px){  
+  #gallery-sendus{
+    padding: 8%;
+  }
+
+  #gallery-sendus h2{
+    font-size: 16px;
+  }
+  #gallery-sendus h4{
+    font-size: 14px;
+  }
+  #gallery-sendus li{
+    width: 60%;
+    padding: 1%;
+  } 
+}
+
+@media only screen and (max-width: 375px){  
+  #gallery-sendus{
+    padding: 8%;
+  }
+
+  #gallery-sendus h2{
+    font-size: 14px;
+  }
+  #gallery-sendus h4{
+    font-size: 12px;
+  }
+  #gallery-sendus li{
+    width: 63%;
+    padding: 1%;
+  } 
+}
+
+@media only screen and (max-width: 320px){
+  #gallery-sendus{
+    padding: 10%;
+  }
+  #gallery-sendus h2{
+    font-size: 13px;
+    padding: 5%;
+  }
+  #gallery-sendus h4{
+    font-size: 11px;
+  }
+  #gallery-sendus li{
+    width: 75%;
+    padding: 2%;
+  } 
+}

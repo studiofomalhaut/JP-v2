@@ -1,0 +1,45 @@
+/*INFO*/
+#info {
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "Nunito", sans-serif;
+    background-size: cover;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    height: auto;
+    color: white;
+    margin: auto;
+    padding: 50px 0 50px 0;
+  }
+  #info-content{
+      background-color: white;
+      color: black;
+  }
+
+  #info-content .container-info {
+    margin-top: 5%;
+    margin-left: 15%;
+    padding-bottom: 30%;
+    display: inline-flex;
+    flex: 1;
+  }
+
+  #info-content .container-info2{
+    margin-left: 5%;
+    padding-bottom: 30%;
+    display: inline-flex;
+    flex: 1;
+  }
+
+  #info-content .container-info3{
+    margin-left: 5%;
+    padding-bottom: 30%;
+    display: inline-flex;
+    flex: 1;
+  }
+  
+  .ui.card{
+    margin: 15% 0;
+  }

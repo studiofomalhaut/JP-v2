@@ -1,0 +1,26 @@
+/*SLEI*/
+
+#segment-long-end .container{
+    display:flex;
+}
+
+.box-0{
+    flex: 0.7;
+}
+.box-1{
+    flex: 1.5;
+    padding: 0;
+}
+.box-0 .flip{
+    display: none;
+    width: 106%
+}
+.box-1 .flip{
+    display: none;
+    width: 108%;
+}
+
+.box-0:hover .flip,
+.box-1:hover .flip{
+    display:flex;
+}

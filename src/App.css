@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  color: white;
+}
+html h2,
+body h2 {
+  font-size: 22px;
+  font-weight: 300;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4% 0;
+}
+html hr,
+body hr {
+  color: black;
+  width: 70%;
+  margin: auto; 
+}
+
+html p,
+body p{
+    color: black;
+    font-size: 14px;
+    padding: 6% 13%;
+}
+
+section{
+  width: 100%;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1680px) {}
+
+
+@media only screen and (max-width: 1440px) {}
+
+
+@media only screen and (max-width: 1040px) {
+
+  body h2{
+    font-size: 19px;
+  }
+
+  #header .row h1{
+    font-size:  80px;
+  }
+
+  #header .row .subheading{
+      font-size:  40px;
+  }
+
+  #info-content .container-info .ui.card{
+    width: 50%;
+    height: auto;
+    margin-left: 15%;
+  }
+
+  #info-content .container-info2 .ui.card,
+  #info-content .container-info3 .ui.card{
+    width: 45%;
+    margin-left: 25%;
+  }
+
+  #eventos .container-events-list{
+    padding: 2% 12%;
+  }
+  #eventos .container-events-list .events-list li{
+    font-size: 13px;
+  }
+
+  #eventos .container-events-list .item-one,
+  #eventos .container-events-list .item-two,
+  #eventos .container-events-list .item-three,
+  #eventos .container-events-list .item-four,
+  #eventos .container-events-list .item-five,
+  #eventos .container-events-list .item-six,
+  #eventos .container-events-list .item-seven {
+      flex: 2;
+      flex-basis: 30%;
+  }
+  #showcase .container-squares .square-1,
+  #showcase .container-squares .square-2,
+  #showcase .container-squares .square-3,
+  #showcase .container-squares .square-4{
+    height: 350px;
+  }
+  #showcase .container-squares .square-1 .flip,
+  #showcase .container-squares .square-2 .flip,
+  #showcase .container-squares .square-3 .flip,
+  #showcase .container-squares .square-4 .flip{
+    height: 100%;
+  }
+
+  
+  #contacto .container-contacto .contact-box h4{
+    font-size: 17px;
+  }
+  #contacto .container-contacto .contact-box .contact-list li {
+    font-size: 13px;
+  }
+
+}
+
+@media only screen and (max-width: 900px){
+
+  body h2{
+    font-size: 17px;
+  }
+
+  .container-welcome p{
+    font-size: 13px;
+  }
+
+  body .text p,
+  #segment-long .text p{
+    font-size: 12px;
+  }
+
+  #eventos button{
+    border-radius: 20px;
+    padding: 1%;
+    margin-right: 13%;
+    margin-top: 5%;
+    width: 15%;
+    font-size: 15px;
+  }
+
+}
+
+
+
+/*Tablets*/
+@media only screen and (max-width: 800px){
+
+  #header .row h1{
+    font-size: 70px;
+  }
+
+  .three-lg-im
+  #showcase .container-squares{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  #header .row h1{
+    margin-top: 21%;
+    margin-left: 22%;
+  }
+  #header .row .subheading{
+    margin-left: 23%;
+  }
+}
+  
+@media only screen and (max-width: 624px) {
+  #header .row h1{
+    font-size: 60px;
+    margin-top: 25%;
+    margin-left: 22%;
+  }
+  #header .row .subheading{
+    margin-left: 23%;
+  }
+}
+
+
+/*Smartphones etc*/
+@media only screen and (max-width: 414px) {
+  #header{
+    height: 500px;
+  }
+  #header .row h1{
+    font-size: 50px;
+    margin-top: 35%;
+    margin-left: 30%;
+  }
+  #header .row .subheading{
+    font-size: 35px;
+    margin-left: 30%;
+  }
+
+  body .container-welcome .row{
+    flex-flow: column nowrap;
+  }
+  .container-welcome ul li:nth-child(1),
+  .container-welcome ul li:nth-child(2),
+  .container-welcome ul li:nth-child(3) {
+    margin-left: 10%;
+  }
+  body .container-welcome p{
+    font-size: 12px;
+    margin: 5% 10%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #header{
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 320px) {}
+
+/*# sourceMappingURL=queries.css.map */

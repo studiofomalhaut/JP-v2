@@ -1,0 +1,72 @@
+/*CONTACTO*/
+#contacto {
+    height: 500px;
+    color: black;
+    /* padding: 3% 10%; */
+  }
+
+  #contacto .container-contacto {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  #contacto .container-contacto .contact-box{
+    flex: 1;
+    padding-top: 5%; 
+    padding-left:10%; 
+    padding-bottom:5%;
+  }
+  #contacto .container-contacto h4{
+    font-size: 20px;
+    margin-left: 12%;
+  }
+
+  #contacto .container-contacto a {
+    text-decoration: none;
+    color: #5c9f14;
+  }
+  #contacto .container-contacto a:hover {
+    color: grey;
+    text-decoration: underline;
+  }
+  #contacto .container-contacto .contact-list {
+    margin: 5% 10%;
+    list-style: none;
+    display: block;
+    text-align: left;
+  }
+  #contacto .container-contacto .contact-list i, 
+  #contacto .container-contacto .contact-list ion-icon {
+    padding: 10px;
+  }
+  #contacto .container-contacto .contact-list li {
+    text-align: left;
+    font-size: 14px;
+  }
+  #contacto .container-contacto .map-box{
+    flex:1.5;
+  }
+  #contacto .container-contacto #map {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding:0;
+  }
+
+  #contacto p{
+    text-align: center;
+  }
+
+
+
+  @media only screen and (max-width: 800px){
+
+    #contacto {
+      height: 1000px;
+    }
+
+    #contacto .container-contacto {
+      display:flex;
+      flex-direction: column;
+    }
+  }

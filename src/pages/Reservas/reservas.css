@@ -1,0 +1,167 @@
+/* RESERVAS */
+#plans {
+    background-color: white;
+    height: 1100px;
+    color: black;
+  }
+
+  .internal-link{
+    color: white;
+    font-weight: 700;
+  }
+  .internal-link:hover{
+    text-decoration: none;
+    color: #df4949;
+  }
+
+  #plans .container-plans {
+    margin-left: 11%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #plans .container-plans .box {
+    width: 80%;
+    top: 4%;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  #plans .container-plans .box a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #5c9f14;
+  }
+  #plans .container-plans .box a:hover {
+    text-decoration: underline;
+  }
+  #plans .container-plans .row {
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+  }
+  #plans .container-plans ul {
+    list-style: none;
+  }
+  #plans .container-plans ul li {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  #plans .container-plans i {
+    color: #5ee792;
+    font-size: 30px;
+    padding: 4px;
+  }
+  #plans .container-plans .box-plan {
+    width: 20%;
+    margin: 55px 30px 0 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 16px;
+    -webkit-box-shadow: 5px 8px 20px lightgray;
+    box-shadow: 5px 8px 20px lightgray;
+    font-weight: 300;
+  }
+  #plans .container-plans .box-plan:hover {
+    -webkit-box-shadow: 5px 5px 17px #b1b2b0;
+    box-shadow: 5px 5px 17px #b1b2b0;
+  }
+
+  #plans .container-plans .box-plan img{
+      width: 100%;
+      display: flex;
+  }
+
+  #plans .container-plans .box-plan li:first-of-type{
+    font-weight: 700;
+  }
+
+  #plans .container-plans .box-plan li:nth-of-type(2){
+    margin-bottom: 4%;
+  }
+
+  #plans .container-plans .box-plan li:nth-of-type(3){
+    margin: 5% 0;
+  }
+
+  #plans .container-plans .box-plan li:nth-of-type(4),
+  #plans .container-plans .box-plan li:nth-of-type(5),
+  #plans .container-plans .box-plan li:nth-of-type(6){
+    margin: 2%;
+  }
+
+  #plans .container-plans .box-plan .call-to-action {
+    color: white;
+    background-color: #5c9f14;
+    padding: 4% 6%;
+    margin: 3% 0;
+    border-radius: 20px;
+    border: 1px solid #5c9f14;
+  }
+
+  #plans .container-plans .box-plan .call-to-action:hover{
+    color: #5c9f14;
+    background-color: white;
+
+  }
+
+  #plans .container-plans .box-plan .call-to-action ion-icon{
+    margin-right: 2%;
+  }
+
+
+  @media only screen and (max-width: 1040px){
+    
+    #plans .container-plans .box-plan li:first-of-type,
+    #plans .container-plans .box-plan li:nth-of-type(2),
+    #plans .container-plans .box-plan li:nth-of-type(3){
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 900px){
+    #plans{
+      height: 1600px;
+    }
+
+    #plans .container-plans .row .box-plan {
+      width: 30%;
+      margin: 6%
+    }
+  }
+
+  @media only screen and (max-width: 624px){
+    body #plans{
+      height: 2900px;
+    }
+
+    #plans .container-plans .row .box-plan {
+      width: 65%;
+      margin: 6% 12%;
+    }
+
+    #plans .container-plans .box-plan li:first-of-type,
+    #plans .container-plans .box-plan li:nth-of-type(2),
+    #plans .container-plans .box-plan li:nth-of-type(3){
+      font-size: 13px;
+    }
+
+    #plans .container-plans .box-plan .call-to-action {
+      padding: 3% 5%;
+      margin: 4% 0;
+    }
+  }
+
+  @media only screen and (max-width: 414px){
+   body #plans{
+      height: 2800px;
+    }
+
+    #plans .container-plans .row .box-plan {
+      width: 70%;
+      margin: 6% 10%;
+    }
+  }

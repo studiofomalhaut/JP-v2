@@ -1,0 +1,45 @@
+/*BACK To TOP BUTTON*/
+
+.back-to-top-container{
+    margin: 0;
+    size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 7;
+}
+#backtotop{
+    position: fixed;
+    background-color: white;
+    color: darkslategrey;
+    padding: 1%;
+    width: 5%;
+    top: 80%; 
+    left: 90%;
+}
+#backtotop i {
+    text-align: center;
+}
+#backtotop:hover{
+    color: greenyellow;
+    background-color: darkslategrey;
+}
+#backtotop:focus{
+    outline: none;
+}
+
+@media only screen and (max-width: 1092px){
+}
+@media only screen and (max-width: 1024px){
+    #backtotop{
+        top: 85%;
+        left: 85%;
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 411px){
+    #backtotop{
+        width: 15%;
+        left: 80%;
+    }
+}

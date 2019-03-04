@@ -1,0 +1,17 @@
+/* NOTICIAS */
+
+#noticias{
+    padding: 2% 10%;
+}
+
+.ui.cards{
+    display: inline-flex;
+    align-items:flex-start;
+    padding: 4%;
+}
+
+@media only screen and (max-width: 414px){
+    .ui.cards{
+        margin: 4% 5%;
+    }
+}

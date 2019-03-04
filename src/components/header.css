@@ -1,0 +1,36 @@
+/*HEADER SECTION*/
+#header{
+    height: 700px;
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "Nunito", sans-serif;
+    background-size: cover;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    color: white;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#header h1{
+    font-size:  100px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 15%;
+    margin-left: 20%;
+
+}
+
+#header .subheading{
+    font-size:  70px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: none;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+ 

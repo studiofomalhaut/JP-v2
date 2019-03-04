@@ -1,0 +1,46 @@
+/*SEGMENT IMAGES*/
+
+#segment-long{
+    width: 100%;
+}
+
+#segment-long .container{
+    display: flex;
+}
+
+.box-9{
+    background-color: #e4edcd;
+    height: 450px;
+    flex: 1.5;
+}
+
+.text h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    color: black;
+    padding: 6%;
+}
+
+.text p{
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.box-10{
+    flex: 1.5;
+    height: 450px;
+}
+
+.box-9 .flip,
+.box-10 .flip{
+    display: none;
+    width: 100%;
+}
+
+.box-9:hover .flip,
+.box-10:hover .flip{
+    display: flex;
+}

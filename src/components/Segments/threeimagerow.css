@@ -1,0 +1,56 @@
+/*THREE IMAGE ROW */
+
+#three-img-row{
+    width: 100%;
+}
+
+#three-img-row .container{
+    display: flex;
+}
+
+.text h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    color: black;
+    padding: 6%;
+}
+
+.text p{
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.box-a,
+.box-c{
+    flex: 1;
+    height: 400px;
+}
+
+.box-b{
+    flex: 1.2;
+}
+
+
+.box-a .flip,
+.box-b .flip,
+.box-c .flip {
+    display: none;
+    width: 100%;
+}
+
+.box-a:hover .flip
+.box-b:hover .flip,
+.box-c:hover .flip{
+    display: flex;
+} 
+
+@media only screen and (max-width: 869px){
+    #three-img-row .container{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+}

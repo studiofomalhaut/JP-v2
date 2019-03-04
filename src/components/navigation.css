@@ -1,0 +1,143 @@
+.logo {
+    height: auto;
+    width: 140px;
+    float: left;
+    padding-left: 3%;
+    padding-top: 1%;
+    z-index: 5 !important;
+  }
+  
+  .main-nav {
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-right: 2%;
+    padding: 1%;
+  }
+  .main-nav li {
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 5px;
+    margin-top: 4%;
+  }
+  #ligueja {
+    color: #faf4e8;
+    background-color: #df4949;
+    border-radius: 30px;
+    padding: 5px;
+  }
+  #ligueja:hover {
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  .main-nav #ligueja ion-icon {
+    font-size: 14px;
+  }
+  .main-nav .navlink {
+    padding: 8px;
+    color: white;
+    font-weight: 300;
+  }
+
+
+  .main-nav .navlink:after{
+    display:block;
+    content: '';
+    color: #c6e47a;
+    border-bottom: 1px solid white;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+  .main-nav .navlink:hover:after{
+    transform: scaleX(1);
+    transform-origin:50% 100%;
+  }
+
+  .main-nav .navlink:last-of-type:hover{
+    text-decoration: none;
+  }
+
+  .main-nav ion-icon {
+    font-size: 20px;
+  }
+
+/*MOBILE LINKS*/
+.container-links {
+  height: 100%;
+  top: 0;
+  width: 50%;
+  padding-top: 3%;
+  position: fixed;
+  background-color: white;
+  -webkit-box-shadow: 2px 5px 15px #626060;
+  box-shadow: 2px 5px 15px #626060;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out; 
+  z-index: 10;
+}
+
+.container-links.slide {
+  transform: translateX(0);
+}
+
+.continer-links ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.container-links ul li {
+  width: 100%;
+  padding: 15%;
+  border-bottom: 1px solid lightgrey;
+}
+.container-links ul li .mobile-nav-link {
+  color: #50811c;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  font-size: 14px;
+}
+.container-links ul li:hover .mobile-nav-link{
+  color: #c6e47a;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1920px) {
+  #mobile-links{display: none;}
+}
+
+@media only screen and (max-width: 1040px) {
+  #main-nav .main-nav li{font-size: 15px;}
+  
+  body .vertical-nav ion-icon {font-size: 27px;}
+}
+
+
+@media only screen and (max-width: 800px){
+
+  .logo{width: 110px;}
+
+  .main-nav{display: none;}
+
+  #mobile-links{display: flex;}
+
+}
+
+@media only screen and (max-width: 624px){
+  .main-nav{display: none;}
+
+  #mobile-links{display: flex;}
+}
+
+

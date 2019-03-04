@@ -1,0 +1,221 @@
+/*FOOTER*/
+footer {
+    background-color: rgba(54, 53, 50, 0.95);
+    padding-top: 5%;
+    height: auto;
+  }
+
+  footer .container-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    width: 90%;
+    margin: 0 10%;
+  }
+
+  footer .container-footer #official-logo {
+    width: 100%;
+  }
+
+  footer .container-footer #acontece{
+    width: 100%;
+    margin: 15% 35%;
+  }
+
+  footer .container-footer #linkados{
+    width: 80%;
+    margin: 0 75%;
+  }
+
+  footer .container-footer #clubofmoz{
+    width: 80%;
+    margin: 0 95%;
+  }
+
+  footer .container-footer .item-one,
+  footer .container-footer .item-two{
+    flex: 1;
+    list-style: none;
+    margin: 0;
+  }
+  footer .container-footer .item-three{
+    margin-left: 15%;
+    list-style: none;
+    margin-right: 5%;
+  }
+  footer .container-footer .item-four{
+    margin-left: 2%;
+    list-style: none;
+    margin-right: 2%;
+  }
+  footer .container-footer .item-five{
+    margin-left: 2%;
+    list-style: none;
+    margin-right: 5%;
+  }
+  footer .container-footer .item-four ion-icon,
+  footer .container-footer .item-five ion-icon {
+    font-size: 15px;
+    padding: 2%;
+  }
+
+  footer .container-footer .item-three .link,
+  footer .container-footer .item-four .link,
+  footer .container-footer .item-five .link{
+    color: white;
+    font-size: 12px;
+    padding: 2% 0;
+  }
+
+  footer .container-footer .item-three .link:hover,
+  footer .container-footer .item-four .link:hover,
+  footer .container-footer .item-five .link:hover{
+    color: #b7b9b1;
+  }
+
+  footer #goodbye {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  footer #goodbye p{
+    color: white;
+    text-align: center;
+    padding: 2%;
+  }
+  footer #goodbye a {
+    color: #df4949;
+    text-decoration: none;
+  }
+  footer #goodbye a:hover {
+    color: grey;
+  }
+
+
+  @media only screen and (max-width: 1024px){
+    footer .container-footer {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: center;
+      width: 90%;
+      margin: 0 10%;
+    }
+  
+    footer .container-footer #official-logo {
+      width: 100px;
+    }
+  
+    footer .container-footer #acontece{
+      width: 100px;
+      margin: 0 45%;
+    }
+  
+    footer .container-footer #linkados{
+      width: 80px;
+      margin: 0 85%;
+    }
+
+    footer .container-footer #clubofmoz{
+      width: 80px;
+      margin: 0 95%;
+    }
+
+    footer .container-footer .item-three .link,
+    footer .container-footer .item-four .link{
+      color: white;
+      font-size: 12px;
+      padding: 4% 0;
+    }
+
+    footer .container-footer .item-five{
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 800px){
+    footer .container-footer #official-logo {
+      width: 180px;
+      margin: 0 30%;
+    }
+  
+    footer .container-footer #acontece{
+      display: none
+    }
+  
+    footer .container-footer #linkados{
+      display: none;
+    }
+
+    footer .container-footer #clubofmoz{
+      display: none;
+    }
+
+    footer .container-footer .item-three{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    footer .container-footer .item-four{
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+
+  }
+  
+
+  @media only screen and (max-width: 674px){
+    footer .container-footer {
+      display: flex;
+      flex-flow: column nowrap;
+      align-content: center;
+      width: 90%;
+      /* margin: 0 30%; */
+    }
+    footer .container-footer #official-logo {
+      width: 180px;
+      margin: 0 35%;
+    }
+    footer .container-footer .item-three{
+      margin: 5% 40%;
+      text-align: center;
+    }
+    footer .container-footer .item-four{
+      margin:5% 20%;;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 624px){
+    footer .container-footer #official-logo {
+      width: 180px;
+      margin: 2% 35%;
+    }
+    footer .container-footer .item-three{
+      margin: 5% 40%;
+      text-align: center;
+    }
+    footer .container-footer .item-four{
+      margin:5% 20%;;
+      text-align: center;
+    }
+
+    footer #goodbye p{
+      font-size: 11px;
+    }
+  }
+
+  @media only screen and (max-width: 414px){
+    footer .container-footer #official-logo {
+      width: 150px;
+      margin: 2% 25%;
+    }
+    footer .container-footer .item-three{
+      margin: 6% 0;
+      text-align: center;
+    }
+    footer .container-footer .item-four{
+      margin: 6% 0;
+      text-align: center;
+    }
+  }
